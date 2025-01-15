@@ -11,4 +11,4 @@ COPY app.py /
 # final configuration
 ENV FLASK_APP=app
 EXPOSE 8000
-CMD ["flask", "run", "--host", "0.0.0.0", "--port", "9000"]
+CMD ["flask", "run", "--host", "0.0.0.0", "--port", "5000"]
